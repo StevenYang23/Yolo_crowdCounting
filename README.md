@@ -11,7 +11,6 @@ Crowd counting is a computer vision problem that involves estimating the number 
 - `convert_box.py`, `convert_data.py`: Scripts for preprocessing and converting data into the required format.
 - `train_new.py`, `train_nwpu.py`: Scripts to train the YOLO model on different datasets.
 - `filterData.ipynb`, `plot_dist.ipynb`, `plot_sample.ipynb`, `visualizing.ipynb`: Jupyter notebooks for data analysis and visualization.
-- `face.png`, `body1.png`, `body2.png`, `face2.png`: Sample images used for training and testing.
 
 ## Demo
 Below are some example images showcasing the model's performance:
@@ -28,34 +27,5 @@ Below are some example images showcasing the model's performance:
 ### Detection Output 2
 ![Demo 4](face2.png)
 
-## Usage
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/StevenYang23/demo.git
-   cd demo
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Download the YOLO model weights (`best.pt`) and place them in the appropriate directory.
 
-### Running Inference
-To perform crowd counting on a new image, run:
-```sh
-python detect.py --weights best.pt --source path/to/image.jpg
-```
-
-### Training the Model
-To train the model from scratch, use:
-```sh
-python train_new.py --data dataset.yaml --weights yolov5s.pt --epochs 50
-```
-
-## Acknowledgments
-This project is inspired by recent advancements in object detection and crowd counting research. Special thanks to the datasets and open-source tools that made this work possible.
-
----
-For any questions or contributions, feel free to open an issue or submit a pull request.
 
