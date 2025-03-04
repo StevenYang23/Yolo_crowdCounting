@@ -23,7 +23,7 @@ Below are some example images showcasing the model's performance:
 ![Demo 2](body2.png)
 
 ### Detection Output 1
-![Demo 3](face1.png)
+![Demo 3](face.png)
 
 ### Detection Output 2
 ![Demo 4](face2.png)
