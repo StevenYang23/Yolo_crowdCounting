@@ -1,4 +1,0 @@
-train: /home/stevenyang/Desktop/cmput469/YOLO/yolo_Box/images
-val: /home/stevenyang/Desktop/cmput469/YOLO/yolo_Box/images
-nc: 1
-names: ['pp']

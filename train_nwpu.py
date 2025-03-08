@@ -12,8 +12,8 @@ print("CUDA is available. Training on GPU.")
 dataset_yaml = "/home/stevenyang/Desktop/cmput469/YOLO/yolo_Box/dataset.yaml"
 
 
-# model = YOLO("yolo11s.pt")
-model = YOLO("/home/stevenyang/Desktop/cmput469/YOLO/runs/detect/crowd_counting_v11/weights/last.pt")
+model = YOLO("yolo11s.pt")
+# model = YOLO("/home/stevenyang/Desktop/cmput469/YOLO/runs/detect/crowd_counting_v11/weights/last.pt")
 
 
 model.train(
@@ -26,6 +26,6 @@ model.train(
     save_period=10,
     project="runs/detect",
     name="crowd_counting_v11",
-    amp=True,
-    resume=True
+    amp=True
+    # resume=True
 )
