@@ -16,16 +16,16 @@ Crowd counting is a computer vision problem that involves estimating the number 
 Below are some example images showcasing the model's performance:
 
 ### Input Image 1
-![Demo 1](body1.png)
+![Demo 1](demo/body1.png)
 
 ### Input Image 2
-![Demo 2](body2.png)
+![Demo 2](demo/body2.png)
 
 ### Detection Output 1
-![Demo 3](face.png)
+![Demo 3](demo/face.png)
 
 ### Detection Output 2
-![Demo 4](face2.png)
+![Demo 4](demo/face2.png)
 
 
 
