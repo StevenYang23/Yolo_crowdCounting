@@ -1,4 +1,4 @@
-train: train/images
-val: eval/images
+train: ../train/images
+val: ../eval/images
 nc: 1
 names: ['pp']

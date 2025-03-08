@@ -26,6 +26,13 @@ model.train(
     save_period=10,
     project="runs/detect",
     name="crowd_counting_v11",
-    amp=True
-    # resume=True
+    amp=True,
+    # resume=True,
+    optimizer = "AdamW",
+    momentum = 0.94,
+    weight_decay = 0.0008,
+    cls = 0.5,
+    box = 7.5,
+    plots = True,
+    val = True
 )
