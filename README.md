@@ -19,7 +19,7 @@ Below are some example images showcasing the model's performance:
 ![Demo 1](demo/body1.png)
 
 ### Input Image 2
-<img src="demo/body2.png" alt="Demo 2" width="500" />
+<img src="demo/body2.png" alt="Demo 2" width="1000" />
 
 ### Detection Output 1
 ![Demo 3](demo/face.png)
